@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FC Barcelona Fanpage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="bi bi-pen-fill"></i> FC Barcelona
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="https://diaz-04.github.io">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Historia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#jugadores">Jugadores</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="text-center py-5 bg-primary text-white">
+        <img src="img/escudo.png" alt="FC Barcelona" class="rounded-circle mb-4" width="200">
+        <h1>Bienvenido al FC Barcelona Fanpage</h1>
+        <p>Historia, jugadores y mucho más sobre el mejor club del mundo.</p>
+    </header>
+
+    <section id="sobre" class="container my-5">
+        <h2 class="text-center mb-4"><i class="bi bi-info-circle"></i> Sobre el Club</h2>
+        <div class="text-center">
+            <img src="img/camp_nou.jpg" alt="Camp Nou" class="image-styled mb-3">
+            <p><br><br>El FC Barcelona, fundado en 1899, es uno de los clubes más prestigiosos del mundo. A lo largo de su historia, ha ganado numerosos títulos, y su influencia va más allá del fútbol, siendo un símbolo cultural y social.</p>
+            <p>El estadio Camp Nou, inaugurado en 1957, es el hogar del club y un ícono del deporte global. El Barça es más que un club, es una identidad compartida por millones de aficionados.</p>
+        </div>
+    </section>
+
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Nuestra Experiencia</h2>
+            <div class="row text-center">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="img/titulos.jpg" class="card-img-top" alt="Títulos">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Títulos Ganados</h5>
+                            <p class="card-text">Con más de 90 títulos oficiales, el Barça ha dejado una huella imborrable en la historia del fútbol.</p>
+                            <div class="mt-auto">
+                                <a href="#" class="btn btn-primary mb-2">Ver más</a>
+                                <a href="#" class="btn btn-secondary mb-2">Historia</a>
+                                <a href="#" class="btn btn-success mb-2">Galería</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="img/lamasia.jpg" class="card-img-top" alt="La Masia">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">La Masia</h5>
+                            <p class="card-text">La cantera más emblemática del mundo ha formado a jugadores como Messi, Xavi e Iniesta.</p>
+                            <div class="mt-auto">
+                                <a href="#" class="btn btn-primary mb-2">Ver más</a>
+                                <a href="#" class="btn btn-secondary mb-2">Jugadores</a>
+                                <a href="#" class="btn btn-success mb-2">Historia</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="img/jugadores.webp" class="card-img-top" alt="Jugadores">
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">Jugadores de la Actual Temporada</h5>
+                            <p class="card-text">Nombres como Lewandowski, Pedri y Gavi lideran el equipo hacia la gloria.</p>
+                            <div class="mt-auto">
+                                <a href="#" class="btn btn-primary mb-2">Ver más</a>
+                                <a href="#" class="btn btn-secondary mb-2">Plantilla</a>
+                                <a href="#" class="btn btn-success mb-2">Calendario</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="jugadores" class="container my-5">
+        <h2 class="text-center mb-4"><i class="bi bi-award-fill"></i> Jugadores Icónicos <i class="bi bi-award-fill"></i></h2>
+        <div class="row text-center">
+            <div class="col-md-4 mb-4">
+                <img src="img/messi.jpg" class="iconic-player" alt="Messi">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="img/xavi.jpg" class="iconic-player" alt="Xavi">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="img/iniesta.jpg" class="iconic-player" alt="Iniesta">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="img/ronaldinho.webp" class="iconic-player" alt="Ronaldinho">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="img/puyol.jpg" class="iconic-player" alt="Puyol">
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="img/cruyff.jpg" class="iconic-player" alt="Cruyff">
+            </div>
+        </div>
+        <div class="text-center mt-3">
+            <a href="#" class="btn btn-primary">Ver más</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="d-flex justify-content-center align-items-center">
+                <article id="articles" class="w-100">
+                    <h2 class="text-center my-4">Artículos Destacados <i class="bi bi-book"></i></h2>
+    
+                    <div class="list-group mt-4">
+                        <button type="button" class="list-group-item list-group-item-action text-dark" aria-current="true"><i class="bi bi-list"></i> Lista de artículos
+                        </button>
+                        <button type="button" class="list-group-item list-group-item-action text-dark">Historia del FC Barcelona</button>
+                        <button type="button" class="list-group-item list-group-item-action text-dark">Los Títulos Más Importantes</button>
+                        <button type="button" class="list-group-item list-group-item-action text-dark">Jugadores Icónicos</button>
+                        <button type="button" class="list-group-item list-group-item-action text-dark">El Desarrollo de La Masía</button>
+                        <button type="button" class="list-group-item list-group-item-action text-dark">El Camp Nou y su Evolución</button>
+                    </div>
+    
+                    <p class="text-center mt-4">
+                        <a href="#" class="btn btn-primary btn-lg" target="_blank" rel="noopener noreferrer">Ver más artículos <i class="bi bi-caret-right"></i></a>
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonios" class="container my-5">
+        <h2 class="text-center mb-4"><i class="bi bi-body-text"></i> Testimonios</h2>
+        <div id="carouselExample" class="carousel slide testimonios-carousel" data-bs-ride="carousel">
+            <div class="carousel-inner text-center">
+                <div class="carousel-item active">
+                    <img src="img/cruyfft.jpg" alt="Johan Cruyff" class="rounded-circle mb-3" width="220" height="220">
+                    <p>"El Barça representa una filosofía única de juego."</p>
+                    <h5 class="mt-2">Johan Cruyff</h5>
+                    <p class="text-muted">Jugador Profesional</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/guardiola.jpg" alt="Pep Guardiola" class="rounded-circle mb-3" width="220" height="220">
+                    <p>"Aquí empieza todo. Más que un club."</p>
+                    <h5 class="mt-2">Pep Guardiola</h5>
+                    <p class="text-muted">Entrenador y Exjugador</p>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/koeman.webp" alt="Ronald Koeman" class="rounded-circle mb-3" width="220" height="220">
+                    <p>"El espíritu del equipo es inquebrantable."</p>
+                    <h5 class="mt-2">Ronald Koeman</h5>
+                    <p class="text-muted">Jugador y Entrenador</p>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </section> 
+
+    <section id="contacto-superpuesto" class="position-relative text-white text-center py-5">
+        <div class="container position-relative bg-primary text-white rounded-3 shadow py-4 px-5 d-flex flex-column flex-md-row justify-content-between align-items-center" style="max-width: 1200px; width: 100%; min-height: 250px;">
+            <h2 class="fw-bold mb-3 mb-md-0" style="font-size: 2.5rem;">¡Hablemos!</h2>
+            <p class="mb-3 mb-md-0" style="font-size: 1.5rem; max-width: 80%;">Contáctame para debatir sobre quien<br> es el Rey de Europa</p>
+            <a href="#" class="btn btn-light text-primary fw-bold px-5 py-3" style="font-size: 1.2rem;"><i class="bi bi-envelope-check"></i>Contacto</a>
+        </div>
+    </section>
+    
+    
+    <footer id="contacto" class="bg-dark text-center text-white py-5"> 
+            <p class="mb-4">Página dedicada a los fans del Barcelona<br>Más que un club</p>
+            <div class="d-flex justify-content-center gap-4 mb-4">
+                <a href="https://www.facebook.com/fcbarcelona" target="_new" class="social-icon">
+                    <i class="bi bi-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/fcbarcelona/" target="_new" class="social-icon">
+                    <i class="bi bi-instagram"></i>
+                </a>
+                <a href="https://github.com/Diaz-04" target="_new" class="social-icon">
+                    <i class="bi bi-github"></i>
+                </a>
+                <a href="https://x.com/FCBarcelona" target="_new" class="social-icon">
+                    <i class="bi bi-twitter"></i>
+                </a>
+                <a href="https://open.spotify.com/user/agysfb5gdd2hvuvmk8tebi26s?si=331c584d4f7f4636" target="_new" class="social-icon">
+                    <i class="bi bi-spotify"></i>
+                </a>
+            </div>
+            <p class="small">Creado por Marco Diaz (2024) ©</p>
+        </div>
+    </footer>
+    
+
+</body>
+</html>
